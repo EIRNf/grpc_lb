@@ -1,4 +1,4 @@
-module grpc_lb
+module lb
 
 go 1.20
 
