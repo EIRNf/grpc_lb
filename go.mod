@@ -2,7 +2,6 @@ module lb
 
 go 1.20
 
-replace google.golang.org/grpc => google.golang.org/grpc v1.29.0
 
 replace github.com/hashicorp/consul => github.com/hashicorp/consul v1.4.5
 
