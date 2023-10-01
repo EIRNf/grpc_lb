@@ -5,7 +5,8 @@
 package static
 
 import (
-	"google.golang.org/grpc/naming"
+	"github.com/EIRNf/grpc_lb/lb/naming"
+
 )
 
 // Resolver implements a gRPC resolver/watcher that simply returns

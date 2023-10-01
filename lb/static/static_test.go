@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc/naming"
+	"github.com/EIRNf/grpc_lb/lb/naming"
 )
 
 func TestResolver(t *testing.T) {

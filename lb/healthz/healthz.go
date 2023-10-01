@@ -13,7 +13,8 @@ import (
 	"golang.org/x/net/context"
 	"golang.org/x/net/context/ctxhttp"
 	"golang.org/x/sync/errgroup"
-	"google.golang.org/grpc/naming"
+	"github.com/EIRNf/grpc_lb/lb/naming"
+
 )
 
 var (

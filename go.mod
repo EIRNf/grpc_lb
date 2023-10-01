@@ -1,11 +1,13 @@
-module lb
+module github.com/EIRNf/grpc_lb
 
 go 1.20
 
+replace github.com/EIRNf/grpc_lb/lb/naming => ./lb/naming
 
 replace github.com/hashicorp/consul => github.com/hashicorp/consul v1.4.5
 
 require (
+	github.com/EIRNf/grpc_lb/lb/naming v0.0.0-00010101000000-000000000000
 	github.com/golang/protobuf v1.5.3
 	github.com/hashicorp/consul v0.0.0-00010101000000-000000000000
 	github.com/olivere/grpc v1.0.0
@@ -13,7 +15,7 @@ require (
 	github.com/satori/go.uuid v1.2.0
 	golang.org/x/net v0.15.0
 	golang.org/x/sync v0.3.0
-	google.golang.org/grpc v1.25.1
+	google.golang.org/grpc v1.58.2
 )
 
 require (
@@ -32,7 +34,7 @@ require (
 	github.com/stretchr/testify v1.8.4 // indirect
 	golang.org/x/sys v0.12.0 // indirect
 	golang.org/x/text v0.13.0 // indirect
-	google.golang.org/genproto v0.0.0-20190819201941-24fa4b261c55 // indirect
-	google.golang.org/protobuf v1.26.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20230711160842-782d3b101e98 // indirect
+	google.golang.org/protobuf v1.31.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 )

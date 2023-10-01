@@ -8,10 +8,9 @@ import (
 	"io/ioutil"
 	"testing"
 
+	"github.com/EIRNf/grpc_lb/lb/naming"
 	"github.com/hashicorp/consul/api"
 	"github.com/hashicorp/consul/testutil"
-
-	"google.golang.org/grpc/naming"
 )
 
 func TestResolver(t *testing.T) {

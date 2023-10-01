@@ -14,8 +14,8 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	lb "github.com/olivere/grpc/lb/consul"
-	pb "github.com/olivere/grpc/lb/consul/example/proto/echo"
+	lb "github.com/EIRNf/grpc_lb/lb/consul"
+	pb "github.com/EIRNf/grpc_lb/lb/consul/example/proto/echo"
 )
 
 func main() {
