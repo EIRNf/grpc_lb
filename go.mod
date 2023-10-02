@@ -2,7 +2,7 @@ module github.com/EIRNf/grpc_lb
 
 go 1.20
 
-replace github.com/EIRNf/grpc_lb/lb/naming => ./lb/naming
+// replace github.com/EIRNf/grpc_lb/lb/naming => ./lb/naming
 
 replace github.com/hashicorp/consul => github.com/hashicorp/consul v1.4.5
 
