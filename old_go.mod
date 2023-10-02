@@ -2,11 +2,12 @@ module github.com/EIRNf/grpc_lb
 
 go 1.20
 
-replace github.com/EIRNf/grpc_lb/lb/naming => ./lb/naming
+// replace github.com/EIRNf/grpc_lb/lb/naming => ./lb/naming
+
 replace github.com/hashicorp/consul => github.com/hashicorp/consul v1.4.5
 
 require (
-	github.com/EIRNf/grpc_lb/lb/naming v0.0.0-00010101000000-000000000000
+	github.com/EIRNf/grpc_lb/lb/naming v0.0.0-20231002010723-2738eae58ecd
 	github.com/golang/protobuf v1.5.3
 	github.com/hashicorp/consul v0.0.0-00010101000000-000000000000
 	github.com/olivere/grpc v1.0.0

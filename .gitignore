@@ -34,3 +34,5 @@ _testmain.go
 
 .env.local
 /lb/examples/bin
+
+/vendor/*
