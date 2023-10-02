@@ -9,10 +9,8 @@ import (
 	"net"
 	"strconv"
 
+	"github.com/EIRNf/grpc-naming/naming"
 	"github.com/hashicorp/consul/api"
-	"github.com/EIRNf/grpc_lb/lb/naming"
-
-
 )
 
 // Resolver implements the gRPC Resolver interface using a Consul backend.

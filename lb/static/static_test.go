@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/EIRNf/grpc_lb/lb/naming"
+	"github.com/EIRNf/grpc-naming/naming"
 )
 
 func TestResolver(t *testing.T) {

@@ -10,11 +10,11 @@ import (
 	"sync"
 	"time"
 
+	"github.com/EIRNf/grpc-naming/naming"
+	// "github.com/EIRNf/grpc-naming/naming"
 	"golang.org/x/net/context"
 	"golang.org/x/net/context/ctxhttp"
 	"golang.org/x/sync/errgroup"
-	"github.com/EIRNf/grpc_lb/lb/naming"
-
 )
 
 var (

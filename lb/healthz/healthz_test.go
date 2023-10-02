@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/EIRNf/grpc_lb/lb/naming"
+	"github.com/EIRNf/grpc-naming/naming"
 	// "google.golang.org/grpc/naming"
 	"sync"
 )

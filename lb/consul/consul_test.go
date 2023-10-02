@@ -8,7 +8,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/EIRNf/grpc_lb/lb/naming"
+	"github.com/EIRNf/grpc-naming/naming"
 	"github.com/hashicorp/consul/api"
 	"github.com/hashicorp/consul/testutil"
 )

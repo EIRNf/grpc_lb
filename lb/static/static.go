@@ -5,8 +5,7 @@
 package static
 
 import (
-	"github.com/EIRNf/grpc_lb/lb/naming"
-
+	"github.com/EIRNf/grpc-naming/naming"
 )
 
 // Resolver implements a gRPC resolver/watcher that simply returns
